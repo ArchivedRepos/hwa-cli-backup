@@ -21,4 +21,4 @@ You should see an `.appx` file in the current directory.
 When you are ready, you can submit your app in the [Windows Dev Center](https://dev.windows.com/en-us)
 
 ## Additional Guidance
-
+Additional guidance can be found [here](https://github.com/MicrosoftEdge/WebAppsDocs/blob/master/en-US/win10/StorePublishing.md)
