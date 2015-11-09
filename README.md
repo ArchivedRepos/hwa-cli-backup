@@ -1,5 +1,12 @@
 # hwa-cli
 
+## Quick Start
+1. Install NodeJS and npm
+1. Install hwa cli: `npm i -g hwa-cli`
+1. Run `hwa convert path/to/chrome/app.crx`
+1. Answer prompts
+1. The generated `.appx` will appear in the same folder as your chrome package.
+
 ## Installation
 Make sure you have [NodeJS and npm](https://nodejs.org/en/) installed.
 
