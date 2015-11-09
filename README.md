@@ -24,7 +24,7 @@ Next, click on `App Identity` in the menu on the left under the `App management`
 ![App Identity](https://cloud.githubusercontent.com/assets/3271834/11040490/640fd870-86c1-11e5-9821-85e411fd747e.png)
 
 You should see the three values you are prompted for listed on the page:
-![App Values](https://cloud.githubusercontent.com/assets/3271834/11040878/5d3fe54c-86c3-11e5-8c61-184e8fe922c4.png)
+![App Values](https://cloud.githubusercontent.com/assets/3271834/11041022/3050589a-86c4-11e5-9ce5-5985b81c97a3.png)
 
 After plugging in the values and running the tool, you should see an `.appx` file in the current directory.
 
