@@ -28,10 +28,5 @@ You should see the three values you are prompted for listed on the page:
 
 After plugging in the values and running the tool, you should see an `.appx` file in the current directory.
 
-##Submission
-When you are ready, you can submit your app in the 
-
-
-
 ## Additional Guidance
 Additional guidance can be found [here](https://github.com/MicrosoftEdge/WebAppsDocs/blob/master/en-US/win10/StorePublishing.md)
