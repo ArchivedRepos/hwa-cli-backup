@@ -13,7 +13,7 @@ To convert your existing Chrome app, run:
 ```
 hwa convert path/to/chrome/app.crx
 ```
-`hwa-cli` supports the following formats: `.crx`, `.zip`. **Note:** We do not support the every single tyep of Chrome App. If your app is using `Chrome Scrtipt`, `Flash`, etc. Please refer to the guidance [here](https://github.com/MicrosoftEdge/WebAppsDocs/blob/master/en-US/win10/StorePublishing.md).
+`hwa-cli` supports the following formats: `.crx`, `.zip`. **Note:** We do not support every single type of Chrome App. If your app is using `Chrome Script`, `Flash`, etc. Please refer to the guidance [here](https://github.com/MicrosoftEdge/WebAppsDocs/blob/master/en-US/win10/StorePublishing.md).
 
 During the conversion process, you will be prompted for an `App Identity`, `Publisher Identity` and `Publisher Display Name`. To retrieve these values, visit the Dashboard in the [Windows Dev Center](https://dev.windows.com/en-us).
 
