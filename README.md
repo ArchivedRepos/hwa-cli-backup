@@ -13,13 +13,16 @@ You are now ready to upload your Hosted Web App to the Windows Store. Be sure to
 The  following package formats are supported: `.crx`, `.zip`.
 
 ## How to fill out the Windows Store prompts
-During the conversion process, you will be prompted for an `App Identity`, `Publisher Identity` and `Publisher Display Name`. To retrieve these values, visit the Dashboard in the [Windows Dev Center](https://dev.windows.com/en-us).
+During the conversion process, you will be prompted for an Identity Name, Publisher Identity, and Publisher Display Name. To retrieve these values, visit the Dashboard in the [Windows Dev Center](https://dev.windows.com/en-us).
 
-1. Click on `Create a new app` and reserve your [app name](https://cloud.githubusercontent.com/assets/3271834/11040454/3780d02a-86c1-11e5-90b1-4775a66f7247.png).
+1. Click on "Create a new app" and reserve your [app name](https://cloud.githubusercontent.com/assets/3271834/11040454/3780d02a-86c1-11e5-90b1-4775a66f7247.png).
 
-2. Next, click on `App identity` in the menu on the left under the [`App management` section](https://cloud.githubusercontent.com/assets/3271834/11040490/640fd870-86c1-11e5-9821-85e411fd747e.png).
+2. Next, click on "App identity" in the menu on the left under the ["App management" section](https://cloud.githubusercontent.com/assets/3271834/11040490/640fd870-86c1-11e5-9821-85e411fd747e.png).
 
 3. You should see the [three values](https://cloud.githubusercontent.com/assets/3271834/11041022/3050589a-86c4-11e5-9ce5-5985b81c97a3.png) for which you are prompted listed on the page.
+  * Identity Name: `Package/Identity/Name`
+  * Publisher Identity: `Package/Identity/Publisher`
+  * Publisher Display Name: `Package/Properties/PublisherDisplayName`
 
 ## Guide for migrating your Hosted Web App
 ### Things you should know
