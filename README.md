@@ -33,6 +33,7 @@ After plugging in the values and running the tool, you should see an `.appx` fil
 * [Image assets](#image-assets)
 * [Capabilities](#capabilities)
 * [File downloads](#file-downloads)
+* [Chrome platform APIs](#chrome-platform-apis)
 
 ### Application Content URI Rules
 Application Content URI Rules (ACURs) or Content URIs define the scope of your Hosted Web App through a URL allow list in your app package manifest. In order to control the communication to and from remote content, you must define which URLs are included in, and/or excluded from, this list. If a user clicks a URL that is not explicitly included, Windows will open the target path in the default browser. With ACURs, you are also able to grant a URL access to [Universal Windows APIs](https://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx).
@@ -60,3 +61,6 @@ Note: Users are notified of all the capabilities that an app declares. It would 
 
 ### File downloads
 Traditional file downloads, like you see in the browser, are not currently supported.
+
+### Chrome platform APIs
+Chrome provides apps with [special-purpose APIs](https://developer.chrome.com/apps/api_index) that can be run as background script. These are not supported. You can find equivalent functionality, and much more, with the [Windows Runtime APIs](https://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx).
