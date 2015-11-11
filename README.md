@@ -12,7 +12,7 @@ You are now ready to upload your Hosted Web App to the Windows Store. Be sure to
 ### Supported Chrome package formats
 The  following package formats are supported: `.crx`, `.zip`.
 
-## How to fill out the Windows Store prompts
+### How to fill out the Windows Store prompts
 During the conversion process, you will be prompted for an Identity Name, Publisher Identity, and Publisher Display Name. To retrieve these values, visit the Dashboard in the [Windows Dev Center](https://dev.windows.com/en-us).
 
 1. Click on "Create a new app" and reserve your [app name](https://cloud.githubusercontent.com/assets/3271834/11040454/3780d02a-86c1-11e5-90b1-4775a66f7247.png).
