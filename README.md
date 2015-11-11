@@ -1,27 +1,18 @@
 # hwa-cli
 
-## Quick Start
-1. Install NodeJS and npm
+## Convert your Chrome app to a Windows hosted app
+1. Install [NodeJS and npm](https://nodejs.org/en/)
 1. Install hwa cli: `npm i -g hwa-cli`
-1. Run `hwa convert path/to/chrome/app.crx`
-1. Answer prompts
-1. The generated `.appx` will appear in the same folder as your chrome package.
+1. Convert your [Chrome package](#supported-chrome-package-formats): `hwa convert path/to/chrome/app.crx` or `hwa convert path/to/chrome/app.zip`
+1. Fill out the [Windows Store prompts](#how-to-fill-out-the-windows-store-prompts)
+1. The generated `.appx` will appear in the same folder as your Chrome package.
 
-## Installation
-Make sure you have [NodeJS and npm](https://nodejs.org/en/) installed.
+You are now ready to upload your Hosted Web App to the Windows Store. Be sure to [check out the guide below](#guide-for-migrating-your-hosted-web-app) for more information.
 
-To install, run:
-```
-npm i -g hwa-cli
-```
+### Supported Chrome package formats
+`hwa-cli` supports the following formats: `.crx`, `.zip`.
 
-## Usage
-To convert your existing Chrome app, run:
-```
-hwa convert path/to/chrome/app.crx
-```
-`hwa-cli` supports the following formats: `.crx`, `.zip`. **Note:** We do not support every single type of Chrome App. If your app is using `Chrome Script`, `Flash`, etc. Please refer to the guidance [here](https://github.com/MicrosoftEdge/WebAppsDocs/blob/master/en-US/win10/StorePublishing.md).
-
+## How to fill out the Windows Store prompts
 During the conversion process, you will be prompted for an `App Identity`, `Publisher Identity` and `Publisher Display Name`. To retrieve these values, visit the Dashboard in the [Windows Dev Center](https://dev.windows.com/en-us).
 
 Click on `Create a new app` and reserve your App's name:
@@ -37,11 +28,11 @@ After plugging in the values and running the tool, you should see an `.appx` fil
 
 ## Guide for migrating your Hosted Web App
 ### Things you should know
-* Application Content URI Rules
-* Flash
-* Image assets
-* Capabilities
-* File downloads
+* [Application Content URI Rules](#application-content-uri-rules)
+* [Flash](#flash)
+* [Image assets](#image-assets)
+* [Capabilities](#capabilities)
+* [File downloads](#file-downloads)
 
 ### Application Content URI Rules
 Application Content URI Rules (ACURs) or Content URIs define the scope of your Hosted Web App through a URL allow list in your app package manifest. In order to control the communication to and from remote content, you must define which URLs are included in, and/or excluded from, this list. If a user clicks a URL that is not explicitly included, Windows will open the target path in the default browser. With ACURs, you are also able to grant a URL access to [Universal Windows APIs](https://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx).
