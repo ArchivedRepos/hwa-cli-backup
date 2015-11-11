@@ -57,7 +57,7 @@ Flash is not allowed in Windows 10 apps. You will need to make sure your app exp
 
 For ads, you will need to make sure your ad provider has an HTML5 option. You can check out [Bing Ads](https://bingads.microsoft.com/) and [Ads in Apps](http://adsinapps.microsoft.com/).
 
-YouTube videos should still work, as they now [default to HTML5 <video>](http://youtube-eng.blogspot.com/2015/01/youtube-now-defaults-to-html5_27.html), so long as you are using the [<iframe> embed method](https://developers.google.com/youtube/iframe_api_reference). If your app still uses the Flash API, you will need to switch to the aforementioned style of embed.
+YouTube videos should still work, as they now [default to HTML5 &lt;video&gt;](http://youtube-eng.blogspot.com/2015/01/youtube-now-defaults-to-html5_27.html), so long as you are using the [&lt;iframe&gt; embed method](https://developers.google.com/youtube/iframe_api_reference). If your app still uses the Flash API, you will need to switch to the aforementioned style of embed.
 
 ### Image assets
 The Chrome web store already [requires](https://developer.chrome.com/webstore/images) a 128x128 app icon image in your app package. For Windows 10 apps, you must supply 44x44, 50x50, 150x150, and 600x350 app icon images, at the very minimum. The conversion tool will automatically create these images for you, based on the 128x128 image. For a richer, more polished app experience, we highly recommend creating your own image files. Here are some [guidelines](https://msdn.microsoft.com/en-us/library/windows/apps/mt412102.aspx) for tile and icon assets.
